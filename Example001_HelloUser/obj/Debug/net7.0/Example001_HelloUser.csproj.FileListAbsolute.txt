@@ -1,0 +1,15 @@
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.csproj.AssemblyReference.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.AssemblyInfoInputs.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.AssemblyInfo.cs
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.csproj.CoreCompileInputs.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\bin\Debug\net7.0\Example001_HelloUser.exe
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\bin\Debug\net7.0\Example001_HelloUser.deps.json
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\bin\Debug\net7.0\Example001_HelloUser.runtimeconfig.json
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\bin\Debug\net7.0\Example001_HelloUser.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\bin\Debug\net7.0\Example001_HelloUser.pdb
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\refint\Example001_HelloUser.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.pdb
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\Example001_HelloUser.genruntimeconfig.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\Example001_HelloUser\obj\Debug\net7.0\ref\Example001_HelloUser.dll
