@@ -21,7 +21,7 @@
 //     return array;
 //    }
 
-// void Polindrom(int [] array)
+// void Palindrom(int [] array)
 // {
 //     int size = array.Length;
 //     string result = "Число является полиндромом";
@@ -42,4 +42,4 @@
 
 // Console.WriteLine("Введите пятизначное число");
 // int a = Convert.ToInt32(Console.ReadLine());
-// Polindrom(PrintArray(a));
+// Palindrom(PrintArray(a));
