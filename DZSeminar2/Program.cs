@@ -53,20 +53,41 @@
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-void Coordinats( double x, double y,double x1, double y1,double z, double z1)
+// void Coordinats( double x, double y,double x1, double y1,double z, double z1)
+// {
+//    Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow((x-x1),2) + Math.Pow((y-y1),2) + Math.Pow((z-z1),2)),2));
+// }
+// Console.WriteLine("input x=");
+// double x=Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("input y=");
+// double y=Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("input z=");
+// double z=Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("input x1=");
+// double x1=Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("input y1=");
+// double y1=Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("input z1=");
+// double z1=Convert.ToDouble(Console.ReadLine());
+// Coordinats(x,y,x1,y1,z,z1);
+
+// Задача 23
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+void TablitsaKubov(int N)
 {
-   Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow((x-x1),2) + Math.Pow((y-y1),2) + Math.Pow((z-z1),2)),2));
+    for(int num = 1; num <= N; num=num+1)
+    {
+        Console.Write(Math.Pow(num,3) + " ");
+    }
 }
-Console.WriteLine("input x=");
-double x=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("input y=");
-double y=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("input z=");
-double z=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("input x1=");
-double x1=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("input y1=");
-double y1=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("input z1=");
-double z1=Convert.ToDouble(Console.ReadLine());
-Coordinats(x,y,x1,y1,z,z1);
+
+Console.WriteLine("Введите любое целое число");
+int N = Convert.ToInt32(Console.ReadLine());
+if(N<1) Console.WriteLine ("Вы ввели число меньше 1, поробуйте снова");
+else Console.WriteLine($"Таблица кубов чисел от 1 до {N}:");
+TablitsaKubov(N);
