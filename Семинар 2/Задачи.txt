@@ -1,0 +1,160 @@
+Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.  78 -> 8  12-> 2  85 -> 8
+
+
+
+
+
+
+
+
+
+int DeleteNumber (int num)// 456
+{
+    int sot = num / 100 ;
+    int ed  = num % 10;
+    return sot*10 + ed;
+
+}
+
+int randomNumber = new Random().Next(100,1000);
+Console.WriteLine(randomNumber);
+int result = DeleteNumber(randomNumber);
+Console.WriteLine(result);
+
+Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+
+14  ->  нет
+46  ->  нет
+161 ->  да
+
+void kratnost (int num1, int num2)
+{
+    if (num2%num1 == 0)
+    Console.WriteLine($"Число {num2} кратно {num1}");
+    else
+    {
+      Console.WriteLine($"Число {num2} не кратно {num1}, остаток {num2%num1}");
+    }
+}
+
+Console.WriteLine("Ведите первое чилсло");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ведите второе чилсло");
+int b = Convert.ToInt32(Console.ReadLine());
+
+kratnost (a, b);
+
+
+// Задача 2
+
+// Ведите 2 числа и проверьте их на кратность 7 и 23 одновременно.
+
+// 161 - да
+// 120 - нет
+
+void proverka (int num1)
+{
+    if (num1%7 == 0 && num1%23 == 0)
+    Console.WriteLine($"Число {num1} кратно и 7, и 23");
+    else
+    {
+      Console.WriteLine($"Число {num1} не кратно 7 и 23 одновременно");
+    }
+}
+
+Console.WriteLine("Ведите чилсло");
+int a = Convert.ToInt32(Console.ReadLine());
+
+proverka (a);
+
+Задача 3
+
+Ведите 2 числа и проверьте, являе
+
+void kvadrat (int num1, int num2)
+{
+    if (Math.Pow(num2, 2) == num1)
+    Console.WriteLine($"Число {num1} это квадрат числа {num2}");
+    else
+    {
+      Console.WriteLine($"Число {num1} это не квадрат числа {num2}");
+    }
+}
+
+Console.WriteLine("Ведите первое чилсло");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ведите второе чилсло");
+int b = Convert.ToInt32(Console.ReadLine());
+
+kvadrat (a, b);
+
+Семинар 3 
+
+//Задание1.  Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
+
+Console.WriteLine("Input X:");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input Y:");
+double y = Convert.ToDouble(Console.ReadLine());
+
+int result = FindQuart(x,y);
+
+if(result==0)
+Console.WriteLine("Point not find");
+else
+Console.WriteLine($"Point located in {result} quart");
+
+
+
+Вводим номер четверти и получаем диапазон данных
+
+Console.WriteLine("Input X:");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input Y:");
+double y = Convert.ToDouble(Console.ReadLine());
+
+int result = FindQuart(x,y);
+
+if(result==0)
+Console.WriteLine("Point not find");
+else
+Console.WriteLine($"Point located in {result} quart");
+Console.WriteLine("Введите номер четверти:");
+int quart = Convert.ToInt32(Console.ReadLine());
+FindCoordinats(quart);
+
+Расстояние между точками в 2Д (сумма квадратов катетов равна квадрату гипотенузы).
+void Coordinats( double x, double y,double x1, double y1)
+{
+   Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow((x-x1),2)+Math.Pow((y-y1),2)),2));
+}
+Console.WriteLine("input x=");
+double x=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("input y=");
+double y=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("input x1=");
+double x1=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("input y1=");
+double y1=Convert.ToDouble(Console.ReadLine());
+Coordinats(x,y,x1,y1);
+
+
+Напишите программу, кторая принимает на вход число и выводит квадраты чисел от 1 до N
+
+void Quad(int N)
+{
+    if (N<1)
+    {
+        Console.WriteLine("Вы ввели неправильные данные");
+    }
+    int index=1;
+    while(index < N+1) 
+    {
+        Console.WriteLine(Math.Pow(index,2));
+    index=index+1;
+    }
+}
+Console.WriteLine("input N=");
+ int x=Convert.ToInt32(Console.ReadLine());
+ Quad(x);
+
