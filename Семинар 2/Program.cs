@@ -147,7 +147,7 @@
 //         {
 //         if(array[j]<array[minPosition]) minPosition = j;
 //         }
-        
+
 // // перемена местами
 //         int temporary = array[i];
 //         array[i] = array[minPosition];
@@ -219,4 +219,10 @@
 
 // ДВУМЕРНЫЕ МАССИВЫ
 
-string [,] table = new string [2,3];
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        string[,] table = new string[2, 3];
+    }
+}
