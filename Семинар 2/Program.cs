@@ -216,3 +216,7 @@
 
 // string res = Method4(45);
 // Console.WriteLine(res);
+
+// ДВУМЕРНЫЕ МАССИВЫ
+
+string [,] table = new string [2,3];
