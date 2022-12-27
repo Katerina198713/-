@@ -217,12 +217,195 @@
 // string res = Method4(45);
 // Console.WriteLine(res);
 
+// СЕМИНАР 5
+
+//Задача  Напишите программу, которая выводит массив и считает сумму всех положительных и отрицательных элементов массива
+
+// int[] CreateRandomArray (int size,int minValue, int maxValue) // создает массив
+// {
+//     int[] myArray = new int[size];
+//     for(int i=0;i<size;i++)
+//     {
+//         myArray[i] = new Random().Next(minValue,maxValue+1);
+//     }
+//     return myArray;
+// }
+
+// void ShowArray (int[] array) // выводит на печать полученный массив
+// {
+//     Console.WriteLine("Полученный массив ->:");
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i]+" ");
+//     }
+//     Console.WriteLine();
+// }
+
+
+// void findMinMax(int [] array) // находит сумму отрицательных и положительных элементов массива
+// {
+//     int summPositive = 0;
+//     int summNegative = 0;
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         if(array[i]>0) summPositive += array[i]; //summPositive = summPositive+array[i];
+//         else 
+//         summNegative += array[i];
+//     }
+//     Console.WriteLine($"Сумма всех положительных элементов массива равна {summPositive}");
+//     Console.WriteLine($"Сумма всех отрицательных элементов массива равна {summNegative}");
+// }
+
+// Console.WriteLine("Введите размер массива:");
+// int lenght = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите минимально возможное значение элемента массива:");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите максимально возможное значение элемента массива:");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int [] myArray = CreateRandomArray(lenght,min,max);
+// ShowArray (myArray);
+// findMinMax (myArray);
+
+// Задача. Напишите программу замены элементов массива. все отрицательные элементы замените соответствиующими положительными и наоборот.
+
+// int[] CreateRandomArray (int size,int minValue, int maxValue) // создает массив
+// {
+//     int[] myArray = new int[size];
+//     for(int i=0;i<size;i++)
+//     {
+//         myArray[i] = new Random().Next(minValue,maxValue+1);
+//     }
+//     return myArray;
+// }
+
+// void ShowArray (int[] array) // выводит на печать полученный массив
+// {
+//     Console.WriteLine("Полученный массив ->:");
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i]+" ");
+//     }
+//     Console.WriteLine();
+// }
+
+// void ZamenaPozNeg(int [] array) // замена отрицательных на соответствующие положительные элементы и наоборот
+// {
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         array [i] = array[i] *-1;
+//     }
+// }
+
+// Console.WriteLine("Введите размер массива:");
+// int lenght = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите минимально возможное значение элемента массива:");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите максимально возможное значение элемента массива:");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int [] myArray = CreateRandomArray(lenght,min,max);
+// ShowArray (myArray);
+// ZamenaPozNeg (myArray);
+// ShowArray (myArray);
+//
+//
+//СЕМИНАР 5
+
+// Задача. Задайте массив и определите, есть ли в нем заданное число.
+
+// void SearchNum (int [] array, int num)
+// {
+//     string result = "нет";
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         if (array [i] == num) result = "да";            
+//     }
+//     Console.WriteLine ($"Число {num} входит в массив?: {result}");    
+// }
+// int [] newArray = {1,2,3,5,17,28,64,15,10,81,9,18,48,8,7,19,21,105,46,1,7,5};
+// Console.WriteLine("Введите искомое число:");
+// int a = Convert.ToInt32(Console.ReadLine());
+// SearchNum (newArray, a);
+
+// Задача. Задайте массив из 123 случайных элементов и определить сколько чисел лежит в отрезке от 10 до 99
+
+int[] CreateRandomArray (int size, int minValue, int maxValue) // создает массив рандоиных элементов
+{
+    int[] myArray = new int[size];
+    for(int i=0;i<size;i++)
+    {
+        myArray[i] = new Random().Next(minValue,maxValue+1);
+    }
+    return myArray;
+}
+
+void ShowArray (int[] array) // выводит на печать полученный массив
+{
+    Console.WriteLine("Полученный массив ->:");
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i]+" ");
+    }
+    Console.WriteLine();
+}
+
+void Count2Znachnyh (int [] array) // Определение колиичества двухзначных чисел
+{
+    int count = 0;
+    for(int i = 0; i < array.Length; i++)
+    {
+        if (array [i] > 9 && array [i] < 100)
+        {
+            count= count + 1;
+        }
+    }
+    Console.WriteLine ($"В массиве {count} двухзначных элементов");
+}
+
+Console.WriteLine("Введите размер массива:");
+int lenght = Convert.ToInt32(Console.ReadLine());;
+Console.WriteLine("Введите минимально возможное значение элемента массива:");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите максимально возможное значение элемента массива:");
+int max = Convert.ToInt32(Console.ReadLine());
+
+int [] myArray = CreateRandomArray(lenght, min, max);
+ShowArray (myArray);
+Count2Znachnyh (myArray);
+
+
+
+
+
+
+
+
+
+
+// СЕМИНАР 
+
+// Задайте двухмерный массив и создайте метод, который меняет местами 1 и последнюю строку массива (сделаем чтоб менялись любая строка с любой)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ДВУМЕРНЫЕ МАССИВЫ
 
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        string[,] table = new string[2, 3];
-    }
-}
+// internal class Program
+// {
+//     private static void Main(string[] args)
+//     {
+//         string[,] table = new string[2, 3];
+//     }
+// }
