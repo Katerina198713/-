@@ -1,0 +1,15 @@
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.csproj.AssemblyReference.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.AssemblyInfoInputs.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.AssemblyInfo.cs
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.csproj.CoreCompileInputs.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\bin\Debug\net7.0\ItogovyProect.exe
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\bin\Debug\net7.0\ItogovyProect.deps.json
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\bin\Debug\net7.0\ItogovyProect.runtimeconfig.json
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\bin\Debug\net7.0\ItogovyProect.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\bin\Debug\net7.0\ItogovyProect.pdb
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\refint\ItogovyProect.dll
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.pdb
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ItogovyProect.genruntimeconfig.cache
+C:\Users\Мы\Desktop\Learn_Katya\Examples\ItogovyProect\obj\Debug\net7.0\ref\ItogovyProect.dll
